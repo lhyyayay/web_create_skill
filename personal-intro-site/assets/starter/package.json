@@ -1,0 +1,31 @@
+{
+  "name": "personal-intro-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run check:content && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check:content": "node scripts/content.mjs check",
+    "photo:add": "node scripts/content.mjs photo",
+    "entry:add": "node scripts/content.mjs entry",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "dependencies": {
+    "vue": "3.5.44",
+    "vue-router": "5.4.0",
+    "markdown-it": "^15.0.3",
+    "dompurify": "^3.4.17",
+    "lucide-vue-next": "^0.577.0",
+    "photoswipe": "^5.4.4",
+    "image-size": "2.0.4"
+  },
+  "devDependencies": {
+    "vite": "8.3.5",
+    "@vitejs/plugin-vue": "^6.0.8"
+  }
+}

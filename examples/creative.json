@@ -1,0 +1,35 @@
+{
+  "name": "示例创作者乙",
+  "isExample": true,
+  "theme": "studio",
+  "purpose": "作品集展示",
+  "info": {
+    "title": "作品与创作记录（演示）",
+    "bio": "用真实作品介绍自己的思考、方法和完成过程。这份内容仅用于模板验证。"
+  },
+  "sections": [
+    {
+      "id": "works",
+      "type": "works",
+      "title": "作品",
+      "layout": "page",
+      "items": [
+        {
+          "id": "layout-study",
+          "title": "版式探索（示例）",
+          "summary": "一份作品如何从想法走到呈现。",
+          "isExample": true,
+          "body": "## 想法与过程\n这里是示例作品说明，不代表真实项目。\n\n## 呈现\n请替换为本人作品与负责的内容。"
+        }
+      ]
+    },
+    "成长经历",
+    "照片墙",
+    {
+      "id": "contact",
+      "type": "contact",
+      "title": "联系我",
+      "empty": "hide"
+    }
+  ]
+}

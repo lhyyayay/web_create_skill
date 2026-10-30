@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "siteTitle": "个人网站",
+  "description": "",
+  "language": "zh-CN",
+  "theme": "editorial",
+  "isExample": false,
+  "profile": {
+    "name": "待填写",
+    "title": "",
+    "bio": "",
+    "school": "",
+    "major": "",
+    "location": "",
+    "tagline": "",
+    "links": []
+  },
+  "sections": []
+}

@@ -1,0 +1,71 @@
+{
+  "name": "示例同学甲",
+  "isExample": true,
+  "purpose": "科研项目申请",
+  "info": {
+    "title": "学习与研究方向演示",
+    "bio": "这是一份用于验证模板的演示资料，展示个人介绍、研究过程与作品的组织方式，不代表真实人物经历。",
+    "school": "演示学校（示例）",
+    "major": "专业方向待填写"
+  },
+  "sections": [
+    "关于我",
+    "教育背景",
+    {
+      "id": "skills",
+      "type": "skills",
+      "title": "能力与方向",
+      "items": [
+        {
+          "id": "research-tools",
+          "title": "研究与表达（示例）",
+          "tags": [
+            "资料整理",
+            "分析过程",
+            "清楚呈现"
+          ],
+          "isExample": true
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "type": "projects",
+      "title": "科研与项目",
+      "items": [
+        {
+          "id": "sample-project",
+          "title": "一项研究如何展开（示例）",
+          "summary": "用一份完整的过程记录，呈现问题、方法和本人贡献。",
+          "question": "如何把研究过程介绍清楚？（示例）",
+          "role": "参与者（演示）",
+          "contribution": "整理问题、记录方法与阶段结论。（演示）",
+          "methods": [
+            "文献整理（示例）",
+            "过程记录（示例）"
+          ],
+          "outcome": "展示资料的结构示例，没有真实研究成果。",
+          "isExample": true,
+          "body": "## 研究问题\n这段正文用于验证长内容页面，不代表真实研究。\n\n## 我的工作\n实际使用时，请填写本人承担的具体工作，并区分团队成果。\n\n## 下一步\n补充可公开展示的材料与真实进展。"
+        }
+      ]
+    },
+    "获奖情况",
+    {
+      "id": "journal",
+      "type": "journal",
+      "title": "生活记录",
+      "layout": "page",
+      "items": [
+        {
+          "id": "first-note",
+          "title": "从一段记录开始（示例）",
+          "summary": "把想留下的文字，慢慢写下来。",
+          "isExample": true,
+          "body": "## 一页记录\n这是展示 Markdown 排版的示例。\n\n- 一段文字\n- 一张照片\n- 一点想法"
+        }
+      ]
+    },
+    "照片墙"
+  ]
+}

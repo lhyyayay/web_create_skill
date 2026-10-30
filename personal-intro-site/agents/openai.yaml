@@ -1,0 +1,4 @@
+interface:
+  display_name: "个人介绍网站"
+  short_description: "根据姓名、个人资料和栏目，生成可维护、可预览的个人介绍与作品集网站"
+  default_prompt: "使用 $personal-intro-site，根据我的姓名、个人信息和所需栏目创建个人网站，并提供预览与维护说明。"
